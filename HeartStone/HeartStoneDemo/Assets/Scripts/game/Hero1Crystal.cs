@@ -41,4 +41,5 @@ public class Hero1Crystal : MonoBehaviour {
 		CrystalNumber.text = remainNumber + "/" + maxNumber;
 
 	}
+
 }

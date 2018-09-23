@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1974261655843990}
+  m_IsPrefabAsset: 1
+--- !u!1 &1974261655843990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4628650358310414}
+  - component: {fileID: 114135542767910192}
+  m_Layer: 0
+  m_Name: DeckController1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4628650358310414
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974261655843990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 501.21118, y: 300.18066, z: -3.125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114135542767910192
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1974261655843990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c520dc8020ae87644a7631157f305810, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Deck:
+  - {fileID: 1061120400911318, guid: b64a0526cdaf84a4e904319855d730f5, type: 2}
+  - {fileID: 1061120400911318, guid: b64a0526cdaf84a4e904319855d730f5, type: 2}
+  - {fileID: 1678494199562272, guid: 6049565950823c649b267f837e86b619, type: 2}
+  - {fileID: 1678494199562272, guid: 6049565950823c649b267f837e86b619, type: 2}
+  - {fileID: 1238306445223296, guid: f83f146e52f140e43a353a408dfb2982, type: 2}
+  - {fileID: 1238306445223296, guid: f83f146e52f140e43a353a408dfb2982, type: 2}
+  - {fileID: 1510883814531680, guid: d93dff6bc62b72d48898f3e6ee3134b4, type: 2}
+  - {fileID: 1510883814531680, guid: d93dff6bc62b72d48898f3e6ee3134b4, type: 2}
+  - {fileID: 1500242179120148, guid: 39480685b3a353449ac5ff845808c996, type: 2}
+  - {fileID: 1500242179120148, guid: 39480685b3a353449ac5ff845808c996, type: 2}
+  - {fileID: 1581470469122522, guid: 7574e4066818a144dbaf98f6d8fe8fd5, type: 2}
+  - {fileID: 1581470469122522, guid: 7574e4066818a144dbaf98f6d8fe8fd5, type: 2}
+  - {fileID: 1378412770771908, guid: a2d4cb679b04ba346ab49bb4385bbb80, type: 2}
+  - {fileID: 1378412770771908, guid: a2d4cb679b04ba346ab49bb4385bbb80, type: 2}
+  - {fileID: 1503777362565428, guid: 47802d7fafeea794fabbbedb481ece73, type: 2}
+  - {fileID: 1865903930969204, guid: b7d5fa1253a913f4c9af52732390f6d0, type: 2}
+  - {fileID: 1865903930969204, guid: b7d5fa1253a913f4c9af52732390f6d0, type: 2}
+  - {fileID: 1106577999585728, guid: ab866983a94fe184d970594e162442e8, type: 2}
+  - {fileID: 1106577999585728, guid: ab866983a94fe184d970594e162442e8, type: 2}
+  - {fileID: 1760430919813634, guid: a9c49579e2bba724883e603d43cd4af3, type: 2}
+  - {fileID: 1760430919813634, guid: a9c49579e2bba724883e603d43cd4af3, type: 2}
+  - {fileID: 1881892691386694, guid: b10959ace2ac3bb449599c46232ee63d, type: 2}
+  - {fileID: 1881892691386694, guid: b10959ace2ac3bb449599c46232ee63d, type: 2}
+  - {fileID: 1558242217560436, guid: a89bf6a08b6afa44fa79ee254ffdeae2, type: 2}
+  - {fileID: 1558242217560436, guid: a89bf6a08b6afa44fa79ee254ffdeae2, type: 2}
+  - {fileID: 1675631981600248, guid: 6e8db13cf64cbc14aa9d0e2dfacff559, type: 2}
+  - {fileID: 1675631981600248, guid: 6e8db13cf64cbc14aa9d0e2dfacff559, type: 2}
+  - {fileID: 1976786802034986, guid: ad3e812b9f4214d4d84d0fb965166592, type: 2}
+  - {fileID: 1976786802034986, guid: ad3e812b9f4214d4d84d0fb965166592, type: 2}
+  - {fileID: 1827071524279210, guid: efc12d81e7f79c447aefbaa7dac48612, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  CardsInHand: []
+  FromPosition: {fileID: 0}
+  ToPosition: {fileID: 0}
+  ToPosition2: {fileID: 0}
+  DestroyPosition: {fileID: 0}
